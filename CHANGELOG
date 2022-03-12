@@ -1,0 +1,12 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+## [v0.1.0](https://github.com/robmckinnon/midi_freq/tree/v0.1.0) (2022-03-12)
+
+### Added
+
+- MidiFreq.freq/2 to return frequency for MIDI note number.
+- MidiFreq.midi/2 to return MIDI note number for frequency.
