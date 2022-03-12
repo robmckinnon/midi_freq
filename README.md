@@ -1,6 +1,6 @@
 # MidiFreq
 
-Elixir utils for MIDI number to frequency conversions.
+Elixir utility functions for MIDI number to frequency conversions.
 
 ## Usage
 
