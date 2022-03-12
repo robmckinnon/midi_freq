@@ -2,6 +2,29 @@
 
 Elixir utils for MIDI number to frequency conversions.
 
+## Usage
+
+```elixir
+  ## Examples
+      iex> MidiFreq.freq(69)
+      440.0
+
+      iex> MidiFreq.freq(69.5)
+      452.8929841231365
+
+      iex> MidiFreq.freq(69, _base_freq = 432)
+      432.0
+
+      iex> MidiFreq.midi(440)
+      69
+
+      iex> MidiFreq.midi(452.8929841231365)
+      69.5
+
+      iex> MidiFreq.midi(432.0, _base_freq = 432)
+      69
+```
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
